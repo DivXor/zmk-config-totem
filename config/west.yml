@@ -2,10 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # - name: caksoylar
-    #   url-base: https://github.com/caksoylar
-    # - name: carrefinho
-    #   url-base: https://github.com/carrefinho
+    - name: caksoylar
+      url-base: https://github.com/caksoylar
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
     - name: urob
       url-base: https://github.com/urob
     - name: janpfischer
@@ -15,12 +15,12 @@ manifest:
       remote: urob
       revision: main
       import: app/west.yml
-    # - name: zmk-rgbled-widget
-    #   remote: caksoylar
-    #   revision: main
-    # - name: prospector-zmk-module
-    #   remote: carrefinho
-    #   revision: main
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
+    - name: prospector-zmk-module
+      remote: carrefinho
+      revision: main
     - name: zmk-dongle-screen
       remote: janpfischer
       revision: main
