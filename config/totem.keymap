@@ -36,6 +36,17 @@
 #define FUNCTION  3
 
 / {
+    behaviors {
+		lc: layer_change {
+			compatible = "zmk,behavior-hold-tap";
+			#binding-cells = <2>;
+			flavor = "hold-preferred";
+			tapping-term-ms = <200>;
+			quick-tap-ms = <200>;
+			require-prior-idle-ms = <125>;
+			bindings = <&to>, <&kp>;
+		};
+    };
 
     keymap {
         compatible = "zmk,keymap";
