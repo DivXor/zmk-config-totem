@@ -11,8 +11,9 @@ manifest:
     - name: janpfischer
       url-base: https://github.com/janpfischer
   projects:
-    - name: zmk-origin
+    - name: zmk
       remote: zmkfirmware
+      revision: v0.3.0
       import: app/west.yml
     - name: zmk
       remote: urob
