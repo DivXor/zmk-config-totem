@@ -6,19 +6,18 @@ manifest:
       url-base: https://github.com/caksoylar
     # - name: carrefinho
     #   url-base: https://github.com/carrefinho
-    - name: urob
-      url-base: https://github.com/urob
+    # - name: urob
+    #   url-base: https://github.com/urob
     - name: janpfischer
       url-base: https://github.com/janpfischer
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
       import: app/west.yml
-    - name: zmk
-      remote: urob
-      revision: main
-      import: app/west.yml
+    # - name: zmk
+    #   remote: urob
+    #   revision: main
+    #   import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
