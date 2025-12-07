@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/caksoylar
     # - name: carrefinho
     #   url-base: https://github.com/carrefinho
-    # - name: urob
-    #   url-base: https://github.com/urob
+    - name: urob
+      url-base: https://github.com/urob
     - name: janpfischer
       url-base: https://github.com/janpfischer
   projects:
