@@ -33,6 +33,8 @@
 #define MEDIA     2
 #define FUNCTION  3
 
+#include "includes/combos.dtsi" 
+
 / {
     behaviors {
 		lc: layer_change {
