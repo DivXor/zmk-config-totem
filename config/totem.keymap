@@ -102,9 +102,9 @@
             //                                           └─────────┴─────────┴──────────┘└─────────┴─────────┴─────────┘
 
             bindings = <
-                           &kp KP_MINUS  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_DIVIDE      &trans      &trans     &trans     &trans     &kp COLON
-                           &kp KP_PLUS   &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MULTIPLY    &kp LEFT    &kp DOWN   &kp UP     &kp RIGHT  &kp SEMICOLON
-                &trans     &kp KP_DOT    &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N0          &trans      &trans     &trans     &trans     &trans     &trans
+                           &kp KP_MINUS               &kp KP_N7          &kp KP_N8         &kp KP_N9         &kp KP_DIVIDE        &trans      &trans     &trans       &trans     &kp COLON
+                           &hm_shift_l LSHFT KP_PLUS  &hm_l LCTRL KP_N4  &hm_l LALT KP_N5  &hm_l LGUI KP_N6  &kp KP_MULTIPLY      &kp LEFT    &hm_r RGUI DOWN  &hm_r RALT UP  &hm_r RCTRL RIGHT  &hm_shift_r RSHFT SEMICOLON
+                &trans     &kp KP_DOT                 &kp KP_N1          &kp KP_N2         &kp KP_N3         &kp KP_N0            &trans      &trans     &trans        &trans     &trans     &trans
                                                     &trans     &trans     &kp SPACE          &trans      &trans     &trans
             >;
         };
